@@ -1,0 +1,99 @@
+.footer__container{
+display: flex;
+justify-content: space-evenly;
+padding-top: 2rem;
+padding: 2rem 6rem;
+border-top: solid 1px rgb(199, 199, 199);
+}
+
+.footer__container .zuri{
+} 
+.fot__text{
+    margin: 0 27%;
+}
+.footer__container .text{
+  height: 18px;
+}
+
+@media screen and (max-width: 1050px)  {
+    .footer__container{
+display: flex;
+justify-content: space-evenly;
+padding-top: 2rem;
+border-top: solid 1px rgb(199, 199, 199);
+border-width: 100%;
+}
+
+.footer__container .zuri{
+} 
+.fot__text{
+    margin: 0 8%;
+}
+.footer__container .text{
+  height: 18px;
+}
+
+}
+
+
+
+@media screen and (max-width: 600px){
+
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding-top: 2rem;
+        padding-left: 0;
+       
+        border-top: solid 1px rgb(199, 199, 199);
+        }
+        
+        .footer__container .zuri{
+            justify-content: left;
+            
+            padding-bottom: 1rem;
+        } 
+        .fot__text{
+            padding-bottom: 1rem;
+            margin: 0;
+        }
+        .footer__container .text{
+          height: 18px;
+        }
+         
+
+}
+
+
+@media screen and (max-width: 330px){
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding-top: 2rem;
+        padding-left: 0;
+        margin-left: 1rem;
+        border-top: solid 1px rgb(199, 199, 199);
+        }
+
+       .zuri .zuri_intern{
+        height: 50%;
+        width: 70%;  
+        }
+.fot__text .text{
+    height: 60%;
+    width: 100%;    
+}
+.i4gm{
+    height: 40%;
+    width: 70%;    
+}
+}
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.task__profile{
+
+    position: relative;
+   
+    
+    background: #FFFFFF;
+}
+
+.share_icon{
+    margin-bottom: -3%;
+    margin-left: 90%;
+}
+.dot_logo{
+    display: none;
+    
+}
+
+.task__profile-img {
+    display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 50%;
+
+}
+
+.pro__img{
+    display: flex;
+   
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    
+  
+}
+.task__profile-img:hover .overlay{
+    height: 100%;
+}
+.hover_img{
+    position: absolute;
+    
+  top: 33%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+} 
+
+/* ==========ID FOR PARAGRAPH IN PROFILE SECTION */
+
+#twitter{
+    text-align: center;
+    justify-content: center;
+    padding: 1.5rem 0 2rem 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Inter';
+    color: #101828;
+    }
+    
+
+@media screen and (max-width: 550px){
+    .task__profile-img p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    
+    
+}
+.overlay{
+    display: none;
+}
+.share_icon{
+    display: none;
+}
+.dot_logo{
+    display: flex;
+    
+    margin-bottom: -3%;
+    margin-left: 90%;
+}
+}
+@media screen and (max-width: 330px){
+
+    .task__profile{
+
+        position: relative;
+       
+        padding-top: 25px;
+        background: #FFFFFF;
+    }
+}
