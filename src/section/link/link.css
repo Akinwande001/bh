@@ -2,6 +2,9 @@
 
 a{
     color: #101828;
+} 
+button{
+    color: #101828;
 }
 .task__content-link__container{
     display: flex;
