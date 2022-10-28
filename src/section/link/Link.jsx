@@ -6,7 +6,7 @@ export default function Link() {
       
     <div className='task__content-link__container'>
         <div className='task__content-links'>
-          <button type='button'>Twitter Link</button>
+          <button type='button' className='twitt'>Twitter Link</button>
          </div>
          <div className='task__content-links'>
           <button type='button'  ><a href ="https://training.zuri.team/"  id= "btn__zuri">Zuri Team</a></button>
