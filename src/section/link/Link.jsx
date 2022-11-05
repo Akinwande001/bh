@@ -23,6 +23,7 @@ export default function Link() {
         <div className='task__content-links'>
           <button type='button' ><a href ="https://books.zuri.team/design-rules" id= "book__design">Design Books</a></button>
         </div>   
+        <Link to="/contact" id="contact" className='link-button' rel="noreferrer">Contact Me</Link>
    </div>
   )
 }

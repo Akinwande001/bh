@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import {Profile, Link, Social, Footer} from "./section"
+import Contact from './section/Contact';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     <Link /> 
     <Social />
     <Footer />
+    <Contact />
     </div>
   );
 }
