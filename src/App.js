@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Profile, Dash, Social, Footer} from "./section"
+import {Profile, Dash, Social, Contact, Footer} from "./section"
 
 function App() {
   return (
