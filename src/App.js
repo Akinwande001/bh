@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
-import {Profile, Link, Social, Footer} from "./section"
+import {Profile, Dash, Social, Footer} from "./section"
 
 function App() {
   return (
     <div className='App'>
     <Profile />
-    <Link /> 
+    <Dash /> 
     <Social />
     <Footer />
     </div>
+    
   );
 }
 

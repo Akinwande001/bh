@@ -1,7 +1,7 @@
-import React from 'react'
-import "./link.css"
+import React from 'react';
+import "./dash.css"
 
-export default function Link() {
+export default function Dash() {
   return (
       
     <div className='task__content-link__container'>
@@ -23,6 +23,9 @@ export default function Link() {
         <div className='task__content-links'>
           <button type='button' ><a href ="https://books.zuri.team/design-rules" id= "book__design">Design Books</a></button>
         </div>   
+        <div className='task__content-links'>
+          <button type='button' ><a href ="https://contactem.netlify.app/" id= "contact">Contact Me</a></button>
+        </div> 
    </div>
   )
 }

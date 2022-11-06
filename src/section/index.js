@@ -1,4 +1,5 @@
 export {default as Profile} from "./profile/Profile"
-export {default as Link} from "./link/Link"
+export {default as Dash} from "./dash/Dash"
 export {default as Social} from "./social/Social"
 export {default as Footer} from "./footer/Footer"
+
